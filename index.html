@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Merienda:wght@300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <form id="search-form">
+      <input
+        type="search"
+        placeholder="Enter a city.."
+        class="search-input"
+        id="search-city"
+        required
+      />
+    </form>
+    <div class="weather-app">
+      <header>
+        <h1 class="city-name" id="city-name"></h1>
+        <p class="country-name" id="country-name"></p>
+      </header>
+      <main class="wether-app-detail">
+        <span class="temperature" id="temperature"></span>
+        <span class="unit" id="unit"> </span>
+        <span class="feel-like"> <span id="feel-like"></span></span>
+        <div class="icon" id="icon"></div>
+        <div class="description-1">
+          <span class="humidity"><span id="humidity"></span></span>
+          <span id="day"></span>
+        </div>
+        <div class="description-2">
+          <span> <span id="wind"></span> </span>
+          <span id="month"></span>
+        </div>
+        <div class="description-3">
+          <div id="condition"></div>
+          <span id="time"></span>
+        </div>
+      </main>
+      <div class="weather-forcast" id="forcast"></div>
+    </div>
+    <footer>
+      <p class="footer">
+        This project was coded by
+        <a
+          href=" https://github.com/settings/profile "
+          target="_blank"
+          class="contact-me"
+        >
+          Zahra Bakhshi</a
+        >
+        , is open-sourced on
+        <a
+          href=" https://github.com/nahal-bakhshi/my-weader-app "
+          target="_blank"
+          class="contact-me"
+        >
+          GitHub
+        </a>
+        and hosted on
+        <a
+          href="https://my-own-weathers-app.netlify.app/"
+          target="_blank"
+          class="contact-me"
+        >
+          Netlify
+        </a>
+      </p>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
