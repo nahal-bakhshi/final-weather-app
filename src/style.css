@@ -47,32 +47,24 @@ body {
   margin: 5% auto;
   font-size: 1em;
 }
+.description {
+}
 
 .temperature {
   font-size: 3em;
 }
 .unit {
   font-size: 1em;
-  display: flex;
-  position: relative;
-  top: -18%;
-  left: 60%;
-}
-.feel-like {
-  position: relative;
-  top: -10%;
 }
 
 .icon {
   width: 100%;
-  position: relative;
-  top: -6%;
 }
 .description-1 {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: -37%;
+  top: -27%;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -81,13 +73,13 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: -35%;
+  top: -27%;
   padding-left: 2%;
   padding-right: 2%;
 }
 .description-3 {
   position: relative;
-  top: -12%;
+  top: -8%;
 }
 .weather-forcast {
   font-size: 0.9em;
